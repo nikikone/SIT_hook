@@ -4,6 +4,9 @@ print(    '1223',
 '2'               
 
 
+               
+               
+               
                )
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
