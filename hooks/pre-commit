@@ -1,0 +1,6 @@
+#!/usr/Appdata/Local/Microsoft/WindowsApps/python.exe
+
+import subprocess
+subprocess.run("autopep8 ./ --recursive --in-place -a", shell=False)
+subprocess.run("black . --exclude venv", shell=False)
+subprocess.run("autoflake --in-place --remove-all-unused-imports --remove-unused-variables -r ./", shell=False)

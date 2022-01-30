@@ -1,0 +1,12 @@
+#!/usr/AppData/Local/Microsoft/WindowsApps/python.exe
+
+import re
+import sys
+
+message = open(sys.argv[1], 'r').read()
+compare = "\[\d+\] .+"
+
+if not re.match(compare, message):
+    print('Wrong commit format')
+    print('Correct format: [n] "message"')
+    sys.exit(-1)
