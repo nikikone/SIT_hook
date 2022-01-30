@@ -1,7 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import User
+import os
 
-print("1223", "2")
+print("1223", "2"
+
+
+)
 
 
 class File(models.Model):
@@ -12,6 +16,12 @@ class File(models.Model):
 
 
 class ToDo(models.Model):
+
+
+
+
+
+
     created = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=100, blank=True, default="")
     body = models.TextField(blank=True, default="")
