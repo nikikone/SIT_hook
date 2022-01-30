@@ -7,13 +7,12 @@ print("1223", "2")
 
 
 
-
-
-
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
     remark = models.CharField(max_length=40)
     timestamp = models.DateTimeField(auto_now_add=True)
+
+
 
 
 
@@ -38,8 +37,6 @@ class ToDo(models.Model):
 
 
 
-
-
 class userProfile(models.Model):
     user = models.OneToOneField(
         User,
@@ -53,6 +50,9 @@ class userProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+
+
+
 
 
 # Create your models here.
