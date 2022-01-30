@@ -1,12 +1,10 @@
 from django.db import models
 from django.contrib.auth.models import User
-
-
+phtc = 123
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
     remark = models.CharField(max_length=40)
     timestamp = models.DateTimeField(auto_now_add=True)
-
 
 class ToDo(models.Model):
     created = models.DateTimeField(auto_now_add=True)
@@ -17,8 +15,6 @@ class ToDo(models.Model):
 
     class Meta:
         ordering = ['created']
-
-
 
 class userProfile(models.Model):
     user = models.OneToOneField(
