@@ -1,12 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
-import os
 
-print("1223", "2"
-
-
-
-)
+print("1223", "2")
 
 
 class File(models.Model):
