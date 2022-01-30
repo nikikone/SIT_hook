@@ -1,7 +1,10 @@
 from django.db import models
 from django.contrib.auth.models import User
 print(    '1223',            
-'2')
+'2'               
+
+
+               )
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
     remark = models.CharField(max_length=40)
