@@ -1,14 +1,28 @@
 from django.db import models
 from django.contrib.auth.models import User
+import os
+print("1223", "2"
 
-print("1223", "2")
+
+
+
+
+)
+
+
+
 
 
 class File(models.Model):
 
     file = models.FileField(blank=False, null=False)
+
+
     remark = models.CharField(max_length=40)
     timestamp = models.DateTimeField(auto_now_add=True)
+
+
+
 
 
 class ToDo(models.Model):
@@ -26,7 +40,10 @@ class ToDo(models.Model):
 
 
 class userProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="profile")
+    user = models.OneToOneField(
+        User,
+        on_delete=models.CASCADE,
+        related_name="profile")
     description = models.TextField(blank=True, null=True)
     location = models.CharField(max_length=30, blank=True)
     date_joined = models.DateTimeField(auto_now_add=True)
