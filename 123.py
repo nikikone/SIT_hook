@@ -7,7 +7,7 @@ print(    '1223',
                
                
                
-               )
+                  )
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
     remark = models.CharField(max_length=40)
