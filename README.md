@@ -1,13 +1,17 @@
 # Лабораторная работа №8
 ## Commit-msg
-![1](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_ser.png)
-### serializers после:
-![2](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_ser2.png)
-### urls до:
-![3](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_urls.png)
-### urls после:
-![4](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_urls2.png)
-### views до:
-![5](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_views.png)
-### views после:
-![6](https://github.com/nikikone/SIT_todo/blob/main/Screen_5_lab/pycodestyle_views2.png)
+### Попытка отправить без надлежащей формы
+![1](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/commit-msg1.png)
+### Результат:
+![2](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/commit-msg2.png)
+## Pre-commit
+### Код до:
+![3](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/do.png)
+### Отправка:
+![4](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/pre-commit1.png)
+![5](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/pre-commit2.png)
+![6](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/pre-commit3.png)
+### Код после:
+![7](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/posle.png)
+## Pre-receive
+![8](https://github.com/nikikone/SIT_hook/blob/main/Screen_8_lab/pre-receive.png)
